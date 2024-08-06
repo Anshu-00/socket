@@ -16,7 +16,7 @@ const io = socketIO(server);
 connectDB();
 app.use(
   cors({
-    origin: "http://localhost:3000/api/users",
+    origin: "https://socket-1-uc5x.onrender.com",
   })
 );
 app.use(cors());
