@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body,
+  html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #3d2121;#73605B, #D09683; */
+    background-color: #8a8588;
+  background-image: linear-gradient(225deg, #d32d8b 0%, #451570 50%, #1f6ca2 100%);
+  
+    overflow: hidden;
+    padding: 20px 0;
+  }
+  
+  #userForm {
+    width: 400px;
+    padding: 20px;
+    background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #a3296e 0%, #572681 50%, #306a94 100%);
+  
+    /* background-color: #022b32; */
+    border: 2px solid #37484d;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(71, 71, 169, 0.7);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  #userForm input,
+  #userForm button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(40, 89, 80, 0.9);
+    border-radius: 3px;
+    border-radius: 5px;
+    background-color: #e9d3e6;
+    box-shadow: 0 0 5px rgb(25, 13, 255);
+  }
+  #userForm input::placeholder {
+    color: #6a6a6a;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  #userForm button {
+    font-family: "Courier New", Courier, monospace;
+    /* background-color: #277b62; */
+    background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(105, 100, 100, 0.512);
+  }
+  #userForm button:hover {
+    /* background-color:  #2cc99d; */
+    background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #9e2a6c 0%, #4e2671 50%, #164465 100%);
+  
+  }
+  #userForm input:-webkit-autofill,
+  #userForm input:-webkit-autofill:hover,
+  #userForm input:-webkit-autofill:focus,
+  #userForm input:-webkit-autofill:active {
+    background-color: #5c3655 !important;
+    color: #474c4d;
+    -webkit-box-shadow: 0 0 5px rgba(101, 86, 100, 0.9) inset !important;
+    box-shadow: 0 0 5px rgba(87, 64, 87, 0.9) inset !important;
+  }
+  #userForm h2 {
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #d27dce, #5937de);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  

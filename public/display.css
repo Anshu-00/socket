@@ -1,0 +1,68 @@
+*{flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+
+h1 {
+font-family: "Courier New, Courier, monospace";
+font-size: 50px;
+font-weight: bold;
+background: linear-gradient(45deg, #decbdd, #dfddea);
+
+/* background: linear-gradient(45deg, #a180a8, #757277); */
+/* background: linear-gradient(45deg, #ff6f61, #d742f4); */
+/* -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;x; */
+text-align: center;
+margin-bottom: 20p
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+font-family: "Courier New", Courier, monospace;
+}
+
+table,
+th,
+td {
+border: 1px solid rgba(180, 181, 165, 0.9);
+}
+
+th,
+td {
+padding: 10px;
+text-align: left;
+background-color: #ca78ae;
+color: #042329;
+font-size: 15px;
+}
+
+th {
+/* background-color: #831370; */
+background-color: #284453;
+
+color: white;
+}
+
+#addNewUserBtn {
+margin: auto;
+width: 150px;
+padding: 10px;
+background-color: #0e2430;
+color: rgb(255, 255, 255);
+/* background-color: #026144;
+color: white; */
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-family: "Courier New", Courier, monospace;
+box-shadow: 0 0 5px rgba(70, 68, 68, 0.5);
+margin-top: 20px;
+}
+
+#addNewUserBtn:hover {
+/* background-color: #06d6a0; */
+background-color: #671443;
+
+}
