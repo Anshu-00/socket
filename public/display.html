@@ -59,9 +59,9 @@
           const email = $(this).data("email");
           $.ajax({
             type: "GET",
-            url: `https://socket-task.onrender.com/api/users/${email}`,
+            // url: `https://socket-task.onrender.com/api/users/${email}`,
 
-             //url: `http://localhost:3000/api/users/${email}`,
+             url: `https://socket-1-uc5x.onrender.com/api/users/${email}`,
 
             success: function (user) {
               let userDetails = `<p>Email: ${user.emailId}</p>`;
